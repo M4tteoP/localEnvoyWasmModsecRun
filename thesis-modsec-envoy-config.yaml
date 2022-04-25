@@ -29,7 +29,7 @@ static_resources:
               "@type": type.googleapis.com/envoy.extensions.filters.http.wasm.v3.Wasm
               config:
                 name: "my_plugin"
-                root_id: "my_root_id"
+                # root_id: "my_root_id"
                 configuration:
                   "@type": "type.googleapis.com/google.protobuf.StringValue"
                   value: |
