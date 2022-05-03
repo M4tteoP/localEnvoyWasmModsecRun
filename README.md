@@ -4,7 +4,7 @@ Start a local server
 ```bash
 python3 -m http.server 8000 &
 ```
-Start envoy via func-e
+Start envoy via [func-e](https://func-e.io/)
 ```bash
 func-e run -c thesis-modsec-envoy-config.yaml &
 ```
